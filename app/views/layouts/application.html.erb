@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Footprints</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
+    <head>
+      <title>Footprints</title>
+      <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+      <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+      <%= csrf_meta_tags %>
+    </head>
 <body>
 
-<%= yield %>
+    <header id="header">
+        <div class="wrap">
+            
+        </div><!-- END OF WRAP -->
+    </header>
+
+    <div class="venueList teehee">
+        <div class="wrap">
+            <%= yield %>
+        </div><!-- END OF WRAP -->
+    </div><!-- END OF VENUE LIST -->
+
+    <footer id="footer">
+        <div class="wrap">
+            
+        </div><!-- END OF WRAP -->
+    </footer>
 
 </body>
 </html>
