@@ -79,7 +79,7 @@ p					  { margin: 0 0 20px;
 						line-height: 170%; }	
 						  
 .wrap				  { margin: 0 auto;
-						width: 960px;
+						width: 80%;
 					    position: relative; }
 						  
 
@@ -142,21 +142,24 @@ blockquote:before, blockquote:after
     padding: 60px 0;
 }
 
-ul.venues {
+.venues {
     background-color: #ffffff;
     display: inline-block;
-    padding: 40px;
+    float: left;
+    font-family: 'Clear Sans', Helvetica, Arial, sans-serif;
+    margin: 0 1% 2%;
+    padding: 4%;
     position: relative;
-    width: 30%;
+    width: 40%;
 }
 
-ul.venues li:first-child, ul.venues li:nth-child(3n+1) {
+.venues h2 {
+    font-family: 'Permanent Marker', Helvetica;
     font-size: 20px;
+    margin: 0 0 15px;
 }
 
-ul.venues li {
-    font-family: 'Clear Sans';
-    list-style: disc outside none;
+.venues span {
     margin: 0 0 10px;
 }
 
