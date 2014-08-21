@@ -1,0 +1,185 @@
+/* ========= 
+
+
+1.0 	UNIVERSAL RESETS / GENERIC / OPTIONAL CLASSES
+2.0 	GLOBAL STRUCTURE
+3.0 	HEADINGS / BRANDING
+4.0 	FORMS
+5.0 	MISC ELEMENTS
+6.0 	PAGE SPECIFIC
+
+X	 	WEBFONTS
+Y		RESPONSIVE LAYOUT
+
+
+Color Guide:
+
+
+========= */
+
+
+
+
+
+/* 1.0 UNIVERSAL RESETS ------------------------------------------------------------------ */
+
+*, html, body, ul, li, img, a
+					  { margin:0;padding:0;border: 0;outline:none;list-style-image:none;list-style-position:outside;list-style-type:none;line-height:1;font-weight:lighter;}
+sup					  { vertical-align:0;position:relative;bottom: 1ex; }
+.clear, br.clear 	  { height: 0 !important; display: block; clear:both; }					  
+.hidden 			  { visibility: hidden !important; display: none; height: 0; width: 0; text-indent: -999999em; }
+.smallcaps			  { font-variant:small-caps; }
+.underline			  { border-bottom:1px solid; }
+.bold, strong		  { font-weight:bold; }
+.italic, em			  { font-style:italic; }
+.yep				  { display: inline-block; }
+.teehee				  { display: table; }
+.yep, .teehee		  { position: relative; width: 100%; }	
+hr 					  { background-color: #e7e7e7;border: 0;clear: both;height: 1px;margin-bottom: 18px; }
+/* remember to define focus styles! ›››› onfocus="this.value=''; this.onfocus=null;" */
+*:focus 			  { outline: 0; }
+						  
+html, body			  { height: 100%; }	
+					
+/*
+::selection 		  { background:; }
+::-moz-selection 	  { background:; }
+*/
+
+/*	General CSS3 Animation
+						  -webkit-transition: all 1s ease-in-out;
+						  -moz-transition: all 1s ease-in-out;
+						  -o-transition: all 1s ease-in-out;
+*/
+
+
+a, a:link, a:visited, a:active, a:active
+					  { text-decoration:none; 
+						-webkit-transition: all 0.3s ease-in-out;
+					    -moz-transition: all 0.3s ease-in-out;
+					    -o-transition: all 0.3s ease-in-out; } 
+
+a, a:link, a:visited  { color:#444; }
+							  
+a:hover, a:active	  { color:#09F; }
+
+input 				  { -webkit-appearance: none;
+    					border-radius: 0; }
+
+/*
+2.0 GLOBAL STRUCTURE
+------------------------------------------------------------------------------------------
+*/
+
+body				  { background: #1DB0EC;
+					    color: #000;
+						font-size: 16px; }
+
+p					  { margin: 0 0 20px;
+						line-height: 170%; }	
+						  
+.wrap				  { margin: 0 auto;
+						width: 80%;
+					    position: relative; }
+						  
+
+/*
+2.1 HEAD STRUCTURE
+------------------------------------------------------------------
+*/
+
+/*
+2.2 FOOTER STRUCTURE
+------------------------------------------------------------------
+*/
+
+/*
+3.0 HEADINGS / BRANDING
+------------------------------------------------------------------
+*/
+
+h1,h2,h3,h4,h5,h6	  {  }
+
+h1 					  {  }
+h2 					  {  }
+h3 					  {  }
+h4 					  {  }
+h5 					  {  }
+
+
+
+
+
+/*
+4.0 FORMS
+------------------------------------------------------------------
+*/
+
+input[type="text"], textarea 
+					  {  }
+						
+input[type="submit"], button
+ 					  {  }
+
+/*
+5.0 MISC
+------------------------------------------------------------------
+*/
+
+blockquote 			  { quotes: none; }
+
+blockquote:before, blockquote:after 
+					  { content: ''; 
+					    content: none; }
+
+
+/*
+6.0 PAGE SPECIFIC
+------------------------------------------------------------------
+*/
+
+.venueList {
+    padding: 60px 0;
+}
+
+.venues {
+    background-color: #ffffff;
+    display: inline-block;
+    float: left;
+    font-family: 'Clear Sans', Helvetica, Arial, sans-serif;
+    margin: 0 1% 2%;
+    padding: 4%;
+    position: relative;
+    width: 40%;
+}
+
+.venues h2 {
+    font-family: 'Permanent Marker', Helvetica;
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+
+.venues span {
+    margin: 0 0 10px;
+}
+
+/* 
+X.0 WEBFONTS -----------------------------------------------------
+*/
+
+
+/*
+Y.0 RESPONSIVE LAYOUT STYLES
+------------------------------------------------------------------
+*/
+
+
+
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { }
+
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) { }
+
+
