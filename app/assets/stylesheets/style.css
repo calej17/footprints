@@ -61,7 +61,7 @@ a, a:link, a:visited, a:active, a:active
 
 a, a:link, a:visited  { color:#444; }
 							  
-a:hover, a:active	  { color:#09F; }
+a:hover, a:active	  { color:#1DB0EC; }
 
 input 				  { -webkit-appearance: none;
     					border-radius: 0; }
@@ -100,7 +100,7 @@ p					  { margin: 0 0 20px;
 
 h1,h2,h3,h4,h5,h6	  {  }
 
-h1 					  {  }
+h1 					  { margin: 0 0 4%; }
 h2 					  {  }
 h3 					  {  }
 h4 					  {  }
@@ -138,6 +138,27 @@ blockquote:before, blockquote:after
 ------------------------------------------------------------------
 */
 
+.new {
+    padding: 0 1%;
+    width: 98%;
+}
+
+.new a, .submit input{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #1db0ec;
+    display: inline-block;
+    font-variant: small-caps;
+    margin: 0 0 2%;
+    padding: 1% 4%;
+}
+
+.new a:hover, .submit input:hover {
+    background-color: transparent;
+    border: 1px solid;
+    color: #fff;
+}
+
 .venueList {
     padding: 60px 0;
 }
@@ -161,6 +182,42 @@ blockquote:before, blockquote:after
 
 .venues span {
     margin: 0 0 10px;
+}
+
+.newVenueForm {
+    background-color: #fff;
+    display: inline-block;
+    padding: 4%;
+    width: 46%;
+}
+
+.newVenueForm .field {
+    margin: 0 0 2%;
+}
+
+.newVenueForm .field label {
+    display: inline-block;
+    font-size: 14px;
+    font-variant: small-caps;
+    width: 100%;
+}
+
+.newVenueForm .field input {
+    background-color: #1db0ec;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 2%;
+    width: 96%;
+}
+
+.submit input {
+    border: 1px solid;
+}
+
+.submit input:hover {
+    background-color: #1db0ec;
+    border: 1px solid #1db0ec;
 }
 
 /* 

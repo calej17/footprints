@@ -1,5 +1,5 @@
 Footprints::Application.routes.draw do
-    resources :footprints, only: :index
+    resources :venues, only: [:index, :show, :new, :create]
     
-    root 'venues#index'
+    root 'footprints#index'
 end
