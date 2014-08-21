@@ -1,0 +1,6 @@
+<% @footprints.each do |fp| %>
+    <h2><%= fp.venue.name %></h2>
+    <span><%= fp.imprinted_at.strftime("%b %-d, %Y %I:%M %p") %></span>
+<% end %>
+
+<!-- ALTERNATE DATETIME SYNTAX: datetime.to_formatted_s(:long) # => "December 04, 2007 00:00" -->
