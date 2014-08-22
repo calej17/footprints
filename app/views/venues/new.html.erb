@@ -1,20 +1,23 @@
+<div class="buttonBox">
+    <a class="topButton" href="<%= venues_path %>">&lsaquo; Back to Venues</a>
+</div>
 <div class="newVenueForm">
     <h1>New Venue</h1>
     <%= form_for @venue, url: venues_path do |v| %>
-    <div class='field yep'>
-        <%= v.label :name %>
-        <%= v.text_field :name %>
-    </div>
-    <div class='field yep'>
-        <%= v.label :latitude %>
-        <%= v.text_field :latitude %>
-    </div>
-    <div class='field yep'>
-        <%= v.label :longitude %>
-        <%= v.text_field :longitude %>
-    </div>
-    <div class='submit'>
-        <%= v.submit %>
-    </div>
+        <div class='field yep'>
+            <%= v.label :name %>
+            <%= v.text_field :name %>
+        </div>
+        <div class='field yep'>
+            <%= v.label :latitude %>
+            <%= v.text_field :latitude %>
+        </div>
+        <div class='field yep'>
+            <%= v.label :longitude %>
+            <%= v.text_field :longitude %>
+        </div>
+        <div class='submit'>
+            <%= v.submit %>
+        </div>
     <% end %>
 </div>
